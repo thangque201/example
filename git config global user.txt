@@ -1,0 +1,31 @@
+git config --global user.username quethang201
+tuong tu cho email va password
+
+git clone <url> (neu doi ten cua repository thi ghi vao day)
+clone 1 repository tren github ve may
+
+git init 
+khoi tao 1 git repository cho 1 project moi hoac da co(theo doi lich su thay doi)
+
+git status
+kiem tra trang thai cua cac file trong repo(untrack, track(modified, unmodified, staged))
+
+git add . (chi them file moi)
+git add -u (chi them thay doi cu nhung file da duoc theo doi truoc do)
+git add -A (tat ca file)
+de tu untrack -> staged hoac modified -> staged (de chuan bi commit)
+
+git commit -m 'message commit'
+staged -> unmodified (xac nhan chinh thuc luu lai 1 ban sao, 1 trang thai)
+
+co the viet tat 2 cau lenh git add va git commit
+git commit -a -m 'viet tat' (git add -A + git commit)
+
+git remote add origin https://github.com/thangque201/hello_git.git
+git push -u origin main
+
+asdsa
+
+
+
+
